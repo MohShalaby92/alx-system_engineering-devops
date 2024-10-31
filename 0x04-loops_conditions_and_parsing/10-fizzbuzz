@@ -17,5 +17,5 @@ then
 else
 	echo "$i"
 fi
-let i++
+((i++))
 done
