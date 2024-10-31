@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# This script displays the current directory content in list format
+
+for f in *
+do
+	echo "${f/*-/}"
+done
