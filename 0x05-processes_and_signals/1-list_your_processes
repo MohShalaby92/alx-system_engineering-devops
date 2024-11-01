@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script prints all processes
+
+ps u -A -H
