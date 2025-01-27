@@ -2,7 +2,7 @@
 Host *
     SendEnv LANG LC_*
     HashKnownHosts yes
-    GSSAPIAuthentication yes
+    GSSAPIAuthentication no
     GSSAPIDelegateCredentials no
     IdentityFile ~/.ssh/school
     PasswordAuthentication no
