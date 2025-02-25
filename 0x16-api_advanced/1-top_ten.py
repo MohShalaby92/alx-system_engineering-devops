@@ -17,9 +17,9 @@ def top_ten(subreddit):
     if subreddit is None or not isinstance(subreddit, str):
         print("None")
 
-    user_agent = {'User-agent': ''}
+    user_agent = {'User-agent': 'MyRedditBot'}
     params = {'limit': 10}
-    url = 'https://www.reddit.com/r/{}/hot/.json'.format(subreddit)
+    url = 'https://www.reddit.com/r/{}/hot.json'.format(subreddit)
 
     response = get(url, headers=user_agent, params=params)
     results = response.json()
