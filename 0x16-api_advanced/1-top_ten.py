@@ -7,7 +7,7 @@ if the subreddit is invalid, prints None.
 def top_ten(subreddit):
 
     headers = {"User-Agent": "MyRedditBot/1.0"}
-    url = f"https://www.reddit.com/r/{}/hot.json"
+    url = f"https://www.reddit.com/r/{subreddit}/hot.json"
     response = response.get(url, headers=headers, allow_redirects=False)
 
     if response.status_code != 200:
