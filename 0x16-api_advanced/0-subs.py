@@ -3,16 +3,15 @@
 Queries the reddit API and returns the number of subscribers for a given subriddet.
 if the subreddit is invalid, returns 0
 """
-
 import requests
 
+headers = {"User-Agent": "CustomUserAgent/1.0"}
+
+
 def number_of_subscribers(subreddit):
-
-    headers = {"User-Agent": "MyRedditBot/1.0"}
-
-    url = f"https://www.reddit.com/r/{subreddit}/about.json"
-
-    response = requests.get(url, headers=headers, allow_redirects=False)
+    """method doc"""
+    url = "https://www.reddit.com/r/{}/about.json".format(subreddit)
+    response = requests.get(url, allow_redirects=False, headers=headers)
     if response.status_code == 200:
         data = response.json()
         return data["data"]["subscribers"]
