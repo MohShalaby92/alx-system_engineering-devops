@@ -1,6 +1,6 @@
 # How A Single Letter Took Down Our Entire Website :man_facepalming:
 
-## Our company's most expensive typo of the year*
+## Our company's most expensive typo of the year
 
 ## Issue Summary
 **Duration**: February 28, 2025, 21:29:59 GMT - February 28, 2025, 22:45:00 GMT (1 hour 15 minutes)  
