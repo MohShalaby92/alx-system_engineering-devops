@@ -22,13 +22,12 @@
 * **22:40:00 GMT** - Culprit identified: a tiny, innocent-looking 'p' at the end of ".php" extension
 * **22:45:00 GMT** - Issue resolved by banishing the extra 'p' from the filename using the mighty sed command
 
-```
+
 The Debugging Journey:
 
 Start → Check Logs → :thinking: → Check Server → :thinking: → Check Database → :thinking:
 → Check Resources → :thinking: → Check Headers → :thinking: → Test PHP → :thinking: 
 → Use Strace → :thinking: → Enable Error Display → :bulb: → Find Typo → :tada:
-```
 
 ## Root Cause and Resolution
 The WordPress settings file tried to load a non-existent file because someone accidentally typed `class-wp-locale.phpp` with an extra 'p'. This is the digital equivalent of asking someone to grab your coffee from the kitchenette when it's actually in the kitchenp - they'll come back empty-handed and confused.
