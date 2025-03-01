@@ -1,4 +1,5 @@
-# How A Single Letter Took Down Our Entire Website í´¦â€â™‚ï¸
+# How A Single Letter Took Down Our Entire Website :man_facepalming:
+
 ## Our company's most expensive typo of the year*
 
 ## Issue Summary
@@ -23,9 +24,10 @@
 
 ```
 The Debugging Journey:
-Start â†’ Check Logs â†’ í´” â†’ Check Server â†’ í´” â†’ Check Database â†’ í´”
-â†’ Check Resources â†’ í´” â†’ Check Headers â†’ í´” â†’ Test PHP â†’ í´” 
-â†’ Use Strace â†’ í´” â†’ Enable Error Display â†’ í²¡ â†’ Find Typo â†’ í¾‰
+
+Start â†’ Check Logs â†’ :thinking: â†’ Check Server â†’ :thinking: â†’ Check Database â†’ :thinking:
+â†’ Check Resources â†’ :thinking: â†’ Check Headers â†’ :thinking: â†’ Test PHP â†’ :thinking: 
+â†’ Use Strace â†’ :thinking: â†’ Enable Error Display â†’ :bulb: â†’ Find Typo â†’ :tada:
 ```
 
 ## Root Cause and Resolution
